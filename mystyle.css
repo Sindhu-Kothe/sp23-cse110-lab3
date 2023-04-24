@@ -118,7 +118,7 @@ div ~ p {
   background-color: blue;
 }
 
-div  p {
+div + p {
   color: purple;
 }
 
