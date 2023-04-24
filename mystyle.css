@@ -1,1 +1,129 @@
 
+/* to make the file easier to read*/
+
+background: url("favicon.ico");
+
+h1{
+  background-color: blue;
+  color: red;
+  text-decoration: wavy;
+  text-align: center;
+  display: grid;
+  position: static;
+}
+
+h1:hover{
+  color:pink;
+  font:roboto;
+}
+
+h2{
+  display: block;
+  height: .077em;
+  width: 1.5ex;
+  position: relative;
+  top: 0px; left: 0px;
+}
+
+.btn:active{
+  color:pink;
+}
+
+ul,
+.box{
+  margin-right:10px;
+  margin: 0.5ex;
+  
+  padding-top: 15pt;
+  padding: 15px;
+  
+  border-top: 2px dottted purple;
+  border radius: 1in;
+  
+}
+
+.container-a{
+  display:flex;
+}
+
+.item-a{
+  flex-grow: 3;
+}
+
+.item-b{
+  flex-shrink: 4;
+}
+
+.item-c{
+  auto-self: auto;
+}
+
+.container-b{
+  display:grid;
+  grid-template-columns: 1fr 2fr 3fr;
+}
+
+.item-d{
+  grid-area: footer;
+}
+
+.item-e{
+  justify-self: center;
+}
+
+.item-f{
+  align-self: center; 
+}
+
+@media (any-hover: hover) {
+  a:hover {
+    background: pink;
+  }
+}
+
+
+#para1{
+  color: pink;
+}
+
+.para2{
+  color:red;
+}
+
+*.allowed{
+  color:green;
+}
+
+a[target] {
+  background-color: green;
+}
+
+h2:hover{
+  color:yellow;
+}
+
+ol,ul{
+  background-color: red;
+}
+
+ol li {
+  background-color: yellow;
+}
+
+ul > li {
+  background-color: yellow;
+}
+
+div ~ p {
+  background-color: blue;
+}
+
+div + p {
+  color: purple;
+}
+
+p.para{
+  color:red;
+}
+
+
