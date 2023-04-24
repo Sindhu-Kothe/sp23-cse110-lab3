@@ -81,3 +81,47 @@ ul,
   }
 }
 
+
+#para1{
+  color: pink;
+}
+
+.para2{
+  color:red;
+}
+
+*.allowed{
+  color:green;
+}
+
+a[target] {
+  background-color: green;
+}
+
+h2:hover{
+  color:yellow;
+}
+
+ol,ul{
+  background-color: red;
+}
+
+ol li {
+  background-color: yellow;
+}
+
+ul > li {
+  background-color: yellow;
+}
+
+div ~ p {
+  background-color: blue;
+}
+
+div + p {
+  color: purple;
+}
+
+p.para{
+  color:red;
+}
